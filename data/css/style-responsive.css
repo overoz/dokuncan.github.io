@@ -1,0 +1,250 @@
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	body	{
+		
+		margin:0!important;	
+		padding:0!important;	
+	}
+	
+	#section-1	{
+		padding:60px 0 40px 0;
+	}
+	
+	#introduction .btn.green	{
+		margin-left:0px;
+	}
+	
+	#animations #airballoon	{
+		left:1080px;
+	}
+	#animations #cloud-sun {
+		right:945px;
+	}
+	
+	.animate	{
+		opacity:1;
+		-webkit-animation-duration:0.001s!important;
+		-webkit-animation-delay:0.001s!important;
+	}
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+	body	{
+		
+		margin:0!important;	
+		padding:0!important;	
+	}
+	.container	{
+		margin:0 20px;	
+	}
+	#introduction, #animations	{
+		height:100%!important;
+	}
+	#animations #landscape, #big-cloud	{
+		display:none;
+	}
+	
+	#introduction .row	{
+		height:185px;
+		position:relative;
+		margin-top:0;
+		padding:0 50px;
+	}
+	#introduction .btn, #introduction .btn:active {
+		width:100%!important;
+		display:block;
+		margin:0 0 10px 0!important;
+		font-size:23px;
+		padding:35px 0;
+	}
+	#introduction h1 {
+		font-size:44px;	
+		line-height:56px;
+	}
+	#introduction h2 {
+		margin:20px 0 30px 0;
+		font-weight:bold!important;
+		font-size:25px;
+		line-height:35px;
+		padding-bottom:30px;
+	}
+	#introduction .row	{
+		padding:0;
+	}
+	#introduction .btn:active {	
+		margin-bottom:7px;
+	}
+	#introduction .btn.green	{
+		margin-left:10px;
+	}
+	#fold	{
+		top:100%!important;
+	}
+	
+	.row hgroup h3	{
+		padding:0 30px;
+		display:block;
+	}
+	
+	#section-1	{
+		padding:60px 0 40px 0;
+	}
+	
+	#section-2, #section-3, #section-4	{
+		padding:50px 0;
+	}
+	
+	#section-1 hgroup	{
+		margin-bottom:40px;
+	}
+	#section-1 .span4	{
+		margin-top:30px;
+		padding-top:40px;
+		border-top:1px #dcdcdc solid;
+	}
+	
+	#section-3	{
+		padding-bottom:20px;
+	}
+	#section-3 .icon	{
+		margin-top:30px;
+	}
+	#section-3 h2	{
+		margin-top:30px;
+	}
+	#section-3 .list	{
+		margin:0 auto;
+		text-align:center;
+		margin-bottom:30px;
+		padding-bottom:40px;
+		border-bottom:1px rgba(0,0,0,0.1) solid;
+		
+	}
+	
+	#section-3 li, #section-4 li, #section-5 li	{
+		padding-left:0!important;
+	}
+	#section-3 li:before, #section-4 li:before, #section-5 li:before	{
+		content:''!important;
+	}
+	
+	#section-5 .list li	{
+	padding:0 20px!important;
+	}
+	
+	#section-4	{
+		text-align:center;
+		padding-bottom:20px;
+	}
+	#section-4 hgroup	{
+		text-align:center;
+	}
+	#section-4 .intro, #section-4 ul 	{
+		padding-bottom:30px;
+		border-bottom:1px rgba(0,0,0,0.1) solid;
+	}
+	#section-4 .intro	{
+		padding-bottom:60px;
+	}
+	#section-4 li	{
+		list-style:none;
+	}
+	#section-4 .contact 	{
+		margin-top:40px;
+	}
+	
+	#section-5	{
+		text-align:center;
+		
+	}
+	#section-5:after	{
+		
+	}
+	#section-5 .paper	{
+		padding:30px 0;
+		background:none;
+	}
+	#section-5 hgroup {
+		text-align:center;
+	}
+	#section-5 .list li {
+		list-style:none;
+	}
+	
+	#section-6	{
+		padding:40px 0 20px 0;
+	}
+	#section-6 .quote:before, #section-6 .quote:after	{
+		display:none
+	}
+	
+	#section-7 h2 {
+		text-align:center;
+	}
+	
+ }
+ 
+
+
+@media(max-width:480px){
+	
+	#introduction .row 	{
+		top:30px;
+	}
+	#introduction h1	{
+		font-size:25px;
+		line-height:29px;
+		border-bottom:1px rgba(0,0,0,0.1) solid;
+		margin-bottom:20px;
+		padding-bottom:20px;
+	}
+	#introduction h2	{
+		display:none
+	}
+	#introduction .btn, #introduction .btn:active {
+		width:100%!important;
+		margin:0 0 10px 0!important;
+		font-size:15px;
+		padding:15px 0;
+		display:block;
+	}
+	#animations #landscape	{
+		display:none;
+	
+	}
+	
+	#section-2, #section-3, #section-4	{
+		padding:30px 0;
+	}
+	
+	#section-3 h2	{
+		margin-bottom:30px;
+	}
+
+	#section-2, #section-3, #section-4	{
+		padding:30px 0;
+	}
+	
+	#section-5 .paper	{
+		background:url(../images/paper-vertical-bg.png) repeat-y;
+	}
+
+	#footer .copyright	{
+		text-align:center;
+	}
+	
+	.animate, #airballoon, #sun	{
+		opacity:1!important;
+		-webkit-transition:none!important;
+		-webkit-animation-duration:0s!important;
+		-webkit-animation-delay:0s!important;
+		-webkit-animation:none!important;
+		transition:none!important;
+		animation-duration:0s!important;
+		animation-delay:0s!important;
+		animation:none!important;
+	}
+	
